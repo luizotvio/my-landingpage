@@ -13,6 +13,22 @@
     --purple4: #4000FF;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--purple1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--purple3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--purple4);
+}
+
 body{
     background-color: var(--purple2);
     height: 100vh;
@@ -63,8 +79,8 @@ nav{
     gap: 1rem;
 }
 
-:is(button, .link-action){
-    padding: .6rem;
+:is(button,.link-action){
+    padding: 0.6rem;
     font-size: .9rem;
     border-radius: 6px;
     cursor: pointer;
