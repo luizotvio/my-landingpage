@@ -214,3 +214,27 @@ footer > div{
     gap: 2rem;
     flex-wrap: wrap;
 }
+
+#my-projects-list{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-projects-list a{
+    text-decoration: none;
+    color: var(--purple4);
+}
+
+#my-projects-list a:hover{
+    color: var(--purple3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+:is(.img-profile, .img-me) {
+    box-shadow: 1px 1px 1px 1px var(--purple3);
+}
